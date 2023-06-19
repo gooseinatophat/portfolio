@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <button class="navb" onclick="window.location.href='#section-portfolio'">
+        Portfolio
+      </button>
+      <button class="navb" onclick="window.location.href='#section-skills'">
+        CV
+      </button>
+      <button class="navb" onclick="window.location.href='#section-intro'">
+        Über Mich
+      </button>
+      <button class="navb" onclick="window.location.href='#contact-section'">
+        Kontakt
+      </button>
+    </div>
+
+    <h1 class="name">Clara Zimmermann</h1>
+
+    <div class="square">
+      <p class="intro">kreativer Mensch und aufstrebende Mediamatikerin</p>
+    </div>
+
+    <h2 id="section-portfolio">Portfolio</h2>
+    <section class="columns">
+      <button
+        class="Photography"
+        onclick="window.location.href='photography.html'"
+      >
+        Photography
+      </button>
+      <button class="Art" onclick="window.location.href='art.html'">Art</button>
+      <button
+        class="digi-d"
+        onclick="window.location.href='ditgital-drawing.html'"
+      >
+        Digital Drawing
+      </button>
+      <button class="video" onclick="window.location.href='video.html'">
+        Video
+      </button>
+    </section>
+
+    <h2 id="section-skills">Curriculum Vitae</h2>
+    <img src="images/cv.jpeg" alt="file not found" />
+
+    <h2 id="section-intro">Über Mich</h2>
+    <main>
+      <section>
+        <div class="block zuri"></div>
+        <p>
+          Zwischen Schweiz und Brasilien erzogen, bin ich vom Anfang an zu eine
+          begeisterte Weltreisende gemacht worden. Von Architektur, Linguistik
+          und Kulinarik zu Gesellschaften, Gebräuche und Erzälungen; Die
+          unendliche Vielfalt unsere gewaltige Welt inspiriert und bewegt mich
+          immer wieder. Mein grösster Wunsch ist es den Menschen durch
+          verschiedene Medien die fantastischste Aspekte des Lebens auf dieser
+          Erde näher zu bringen.
+        </p>
+      </section>
+      <p>
+        Ich bevorzüge dynamische Umfelden, die stehts neue Möglichkeiten
+        einbringen. Dennoch weiss ich ein Gleichgewicht zwischen diese
+        Lebhaftigkeit und ernste Ruhe und Erholung sehr zu schätzen; damit
+        beschaft sich Zürich bei mir den "Traum-Stadt" Titel ganz ohne Aufwand.
+      </p>
+      <section>
+        <div class="block wiedi"></div>
+        <p>
+          Seit 2020 bin ich im Kreis 3 sesshaft. Mit bunten Gebäuden und
+          herzliche Fassaden ist es beinahe unmöglich sich nicht in diesen
+          Quartier zu vernarren. Jahre später bin ich immer noch begeistert
+          Wiedikon mein Zuhause nennen zu dürfen.
+        </p>
+      </section>
+      <p>
+        Ich hoffe die verschiedene Projekte auf dieser Portfolio-Website können
+        einen groszügigen Einblick auf meine Arbeitsweise und Kompetenzen geben.
+        Falls es Sie anschpricht, zögern Sie bitte nicht Kontakt aufzunehmen.
+        Ich freue mich bereits mit Ihnen gemeindsam arbeiten zu dürfen.
+      </p>
+    </main>
+
+    <h2 id="contact-section">Kontakt</h2>
+    <ul class="contact-info">
+      <li>
+        <div class="phone">Mobile: +41 078 205 02 89</div>
+      </li>
+      <li>
+        <div class="username">
+          <a
+            href="http://linktr.ee/clara.is.on.the.sun?utm_source=linktree_profile_share&ltsid=fd61db1f-5bec-494b-b31e-afad8e5c3e8f"
+            target="_blank"
+            >@clara.is.on.the.sun</a
+          >
+        </div>
+      </li>
+      <li>
+        <div class="mail">
+          <a href="mailto:clara.zimmermann780@gmail.com">e-mail</a>
+        </div>
+      </li>
+    </ul>
+
+    <div class="up">
+      <a href="#">⮵</a>
+    </div>
+
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-10vw";
+        }
+        prevScrollpos = currentScrollPos;
+      };
+    </script>
+  </body>
+</html>
