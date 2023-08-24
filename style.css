@@ -1,0 +1,375 @@
+body {
+    background-color: #10100E;
+    margin: 0px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif
+}
+#navbar{
+    position:fixed; 
+    width: 100%;
+    top:0;
+    transition: top 0.3s; 
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    background-color: #10100E;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: left;
+    height: 2.5vw;
+    white-space: nowrap;
+    font-size: 1.5vw;
+
+}
+.navb{
+    display: inline;
+    background-color: #10100E;
+    height: 2vw;
+    margin: 0;
+    color: #9ea395;   
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.navb:hover{
+    border: none;
+    cursor: pointer;
+    color: #d6b03f;
+
+}
+
+h1 {
+    color: #b7d3a1;
+    background: #5a6b40;
+    font-size: 10vw;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-top: 0.2vw;
+    padding: 10vw;
+    padding-left: 2vw;
+    text-shadow:0.5vw 0.5vw #2b2417 ;
+    background-image: url('header-pic.png');
+    background-size: cover;
+
+}
+
+h2 {
+    font-size: 40px;
+    color: #8CA070;
+    margin: 0;
+    padding: 10%;
+    background: #344130;
+    background-image: url('green.jpg');
+    background-attachment: fixed;
+
+}
+
+h3{
+    color: rgb(153, 161, 149);
+    margin: 2.5%;
+    font-size: 30px;
+}
+
+main {
+    background: none;
+    width: 100%;
+}
+
+p {
+    font-size: 30px;
+    color: #d5dbca;
+    line-height: 1.5;
+    font-style: oblique;
+    font-weight: 100;
+    text-align: justify;
+    text-indent: 2em;
+    background: none;
+    margin: 50px 25px;
+}
+
+.square {
+    background-color: #555b2d;
+    width: 0px;
+    height: 6vw;
+    margin: 0;
+    position: relative;
+    animation: slide 5s forwards 1s;
+}
+
+.square .intro {
+    margin-top: 0;
+    color: #ffffff00;
+    background: none;
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin-bottom: 0%;
+    padding: 1vw;
+    text-align: center;
+    text-indent: 0%;
+    animation: transparant 10s forwards 1.75s;
+}
+
+@keyframes slide {
+    0% {
+        left: 0px;
+    }
+
+    25% {
+        width: 100%;
+        background: #555b2d;
+    }
+
+    50% {
+        width: 100%;
+        background:#555b2d;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+@keyframes transparant{
+    0%{
+        color: rgba(255, 255, 255, 0);
+    }
+    30%{
+        color: #10100E;
+    }
+    60%{
+        color: #10100E;
+    }
+    100%{
+        color: #10100E;
+    }
+}
+button{
+    display: block;
+}
+.Photography{
+background-image: url(medusa.jpg);
+width: 25vw;
+height: 25vw;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top;
+font-size: 4vw;
+text-align: center;
+cursor: pointer;
+color: #cf4343;
+text-shadow:2px 2px #802727 ;
+border:none;
+transition-duration: 1s;
+
+}
+.Photography:hover {
+background-position: bottom;
+border-radius: 50%;
+
+
+}
+.Art{
+    background: url(eye.jpg);
+    background-color: #344130;
+    background-size: cover;
+    background-position: center;
+    width: 24.75vw;
+    height: 25vw;
+    font-size: 5vw;
+    cursor: pointer;
+    color: rgb(248, 44, 241);
+    text-shadow:2px 2px #780e58 ;
+    
+    border:none;
+    transition-duration: 1s;
+
+}
+.Art:hover{
+    background-color: #8da786;
+    border-radius: 50%;
+
+}
+.digi-d{
+    background-color: #e079d7;
+    background: url(frida.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 25vw;
+    height: 25vw;
+    font-size: 5vw;
+    color: #529256;    
+    text-shadow:2px 2px #07541b ;
+    cursor: pointer;
+    border:none;
+    transition-duration: 1s;
+
+}
+.digi-d:hover{
+    border-radius: 50%;
+}
+.video{
+    background: url(sunsetpic.jpg);
+    background-color: #c99e41;
+    background-size: contain;
+    width: 23.75vw;
+    height: 25vw;
+    font-size: 5vw;
+    color: #f8dd46;
+    text-shadow:2px 2px #50460e ;
+    cursor: pointer;
+    border:none;
+    transition-duration: 1s;
+}
+.video:hover{
+background-color: rgb(131, 22, 22);
+color: #f79cab;
+border-radius: 50%;
+
+}
+section {
+    background-color:#708056;
+    padding: 1rem;
+    display:flow-root;
+}
+
+.columns {
+    columns: 4 100px;
+    column-gap: 1%;
+    padding: 0rem;
+    display: inline-block;
+    background-color: #1f1f11;
+}
+
+.columns p {
+    margin-top: 0;
+}
+
+.columns h3 {
+    margin-top: 0;
+    margin: 0;
+    color: #c99e41;
+    padding: 1rem;
+    text-align: center;
+    break-inside: avoid;
+    background-repeat: repeat;
+    background-size: contain;
+    background: none;
+    font-style: oblique;
+}
+
+.columns .quote {
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #c99e41;
+    column-span: all;
+    background-image: url('buiding.jpg'); 
+    background-repeat: repeat;
+    background-size:cover;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.block {
+    width: 30vw;
+    height: 30vw;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;    
+    border: 7px solid #555b2d;
+
+}
+.zuri{
+    float: left;
+    margin-right: 1rem;
+    background-image: url(selfie.jpg);
+}
+.wiedi{
+    float: right;
+    margin-left: 1rem;
+    background-image: url(wiedikon.jpg);
+}
+
+.contact-info{
+    height: 200px;
+}
+.contact-info li {
+    display: inline-block;
+    margin-inline: 5rem;
+    text-align: center;
+    margin-top: 50px;
+    white-space: nowrap;
+    font-size: 2rem;
+}
+.phone{
+    color: #a2bb5c;
+}
+
+.username {
+    text-align: center;
+    background: none;
+    margin-top: 0%;
+    position: relative;
+    animation: move 2s infinite;
+}
+@keyframes move {
+    0% {
+        top: 0px;
+    }
+
+    5% {
+        top: 10px;
+    }
+
+    20% {
+        top: 5px;
+    }
+
+    25% {
+        top: 10px;
+    }
+
+    40% {
+        top: 0px;
+    }
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color:#a2bb5c ;
+}
+
+a:visited {
+    color: #a2bb5c;
+}
+
+a:hover,
+a:focus {
+    color: #e8ff83;
+}
+
+a:active {
+    color: #e079d7;
+}
+
+.up {
+    text-align: center;
+}
+em{
+    color: green;
+}
+img{
+    width: 100%;
+    height:max-content
+}
