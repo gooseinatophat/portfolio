@@ -195,14 +195,14 @@ border-radius: 50%;
 }
 .digi-d{
     background-color: #e079d7;
-    background: url(frida.jpg);
+    background: url(clockscreenshot.png);
     background-size: cover;
     background-position: center;
     width: 25vw;
     height: 25vw;
     font-size: 5vw;
-    color: #529256;    
-    text-shadow:2px 2px #07541b ;
+    color: #8b93dd;    
+    text-shadow:2px 2px #080963 ;
     cursor: pointer;
     border:none;
     transition-duration: 1s;
@@ -217,7 +217,7 @@ border-radius: 50%;
     background-size: contain;
     width: 23.75vw;
     height: 25vw;
-    font-size: 5vw;
+    font-size: 4vw;
     color: #f8dd46;
     text-shadow:2px 2px #50460e ;
     cursor: pointer;
@@ -267,7 +267,7 @@ section {
     text-align: center;
     color: #c99e41;
     column-span: all;
-    background-image: url('../images/buiding.jpg'); 
+    background-image: url('buiding.jpg'); 
     background-repeat: repeat;
     background-size:cover;
     margin-left: 0;
@@ -372,4 +372,105 @@ em{
 img{
     width: 100%;
     height:max-content
+}
+
+.clock-title{
+    display: flex;
+    color: #f1dd81;
+    background-color: #6667c4;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10vw;
+}
+.linkerino{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    background-color: #ffbfec;
+}
+.linkolino{
+    margin: 2vw;
+}
+#clock-link{
+    color: #780e58;
+}#clock-link:hover{
+color: #e0009d;
+}
+.video-div{
+    background: url(sunsetpic.jpg);
+    background-color: #c99e41;
+    background-size: contain;
+    width: 100%;
+    height: 25vw;
+    font-size: 4vw;
+    color: #f8dd46;
+    text-shadow:2px 2px #50460e ;
+    cursor: pointer;
+    border:none;
+    transition-duration: 1s;
+    display: flex;
+    justify-content: center;
+}
+.video-div:hover{
+background-color: rgb(131, 22, 22);
+color: #f79cab;
+border-radius: 50%;
+}
+.frida{
+    background: url(frida.jpg);
+    width: 100%;
+    height: 60vw;
+    display: flex;
+    order: 2;    scale: 90%;
+    transition: ease-in 0.6s, ease-out 0.5s;
+
+    background-position: 20% 30%;
+}
+.frismal{
+    background: url(frida.jpg);
+    width: 50vw;
+    height: 60vw;
+    background-size: cover;
+    order: 1;    scale: 90%;
+    transition: ease-in 0.6s, ease-out 0.5s;
+
+    display: flex;
+}
+.contain-art{
+    display: flex;
+}
+.fri3{
+    background: url(frida.jpg);
+    width: 100%;
+    height: 30vw;
+    display: flex;    scale: 90%;
+    transition: ease-in 0.6s, ease-out 0.5s;
+
+    background-position: 50% 25%;
+}
+.fri3:hover, .frismal:hover, .frida:hover, .eye1:hover,.eye2:hover{
+    scale: 100%;
+    transition-delay: 0.3s;
+    transition: ease-in 0.6s, ease-out 0.5s;
+}
+.eye1{
+    background: url(eye.jpg);
+    width: 100%;
+    height: 60vw;
+    display: flex;
+    background-position: center;
+    transition: ease-in 0.6s, ease-out 0.5s;
+    scale: 90%;
+    order: 2;
+}
+.eye2{
+    background: url(eye.jpg);
+    width: 100%;
+    height: 60vw;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    transition: ease-in 0.6s, ease-out 0.5s;
+    scale: 90%;
 }
