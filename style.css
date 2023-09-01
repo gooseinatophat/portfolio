@@ -373,7 +373,11 @@ img{
     width: 100%;
     height:max-content
 }
-
+.clockscreenshot{
+    background-image: url(clockscreenshot.png);
+    height: 50vw;
+    background-size: 50%;
+}
 .clock-title{
     display: flex;
     color: #f1dd81;
@@ -439,13 +443,15 @@ border-radius: 50%;
 }
 .contain-art{
     display: flex;
+    background-color: #c06161;
 }
 .fri3{
     background: url(frida.jpg);
     width: 100%;
     height: 30vw;
-    display: flex;    scale: 90%;
+    display: flex;    
     transition: ease-in 0.6s, ease-out 0.5s;
+    background-color: #c06161;
 
     background-position: 50% 25%;
 }
@@ -484,12 +490,7 @@ border-radius: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 80vw;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.green{
-    background-color: #837157;
-    margin-top: 10vw;
 }
 .urban{
     display: flex;
@@ -499,6 +500,7 @@ border-radius: 50%;
     justify-content:  space-around;
     align-items: center;
     height: 35vw;
+    scale: 90%;
 }
 .six{
     background-image: url(building.jpg);
@@ -506,38 +508,47 @@ border-radius: 50%;
     height: 30vw;
     background-size: 110%;
     background-position: 20% 70%;
+    filter: grayscale(100%);
 }.two{
     background-image: url(reflecting\ bridge.jpg);
     min-width: 30vw;
     height: 30vw;
     background-size:100%;
     background-position: 100% 70%;
+    filter: grayscale(100%);
+
 }.eight{
     background-image: url(tree.jpg);
     min-width: 30vw;
     height: 30vw;
     background-size:400%;
     background-position: 100% 70%;
+    filter: grayscale(100%);
+
 }.three{
     background-image: url(lake2.jpeg);
     min-width: 30vw;
     height: 30vw;
     background-size: 100% ;
-    background-position: 30% 0%;
+    background-position: 30% 0%;    filter: grayscale(100%);
+
 }.one{
     background-image: url(langi.jpg);
     min-width: 30vw;
     height: 30vw;
     background-size: 200%;
-    background-position: 70% 70%;
+    background-position: 70% 70%;    filter: grayscale(100%);
+
 }.five{
-    background-image: url(ampel.jpg);
+    background-image: url(ampel.jpg);    filter: grayscale(100%);
+
     min-width: 30vw;
     height: 30vw;
     background-size: 200%;
     background-position: 50% 70%;
 }.seven{
-    background-image: url(wiedikon.jpg);
+    background-image: url(wiedikon.jpg);    filter: grayscale(100%);
+
     min-width: 30vw;
     height: 30vw;
     background-size: 200%;
@@ -548,29 +559,55 @@ border-radius: 50%;
     min-width: 30vw;
     height: 30vw;
     background-size: 150%;
-    background-position: 30% 25%;
+    background-position: 30% 25%;    filter: grayscale(100%);
+
 }.four{
     background-image: url(blue2.jpg);
     min-width: 30vw;
     height: 30vw;
     background-size: 100%;
-    background-position: 30% 65%;
+    background-position: 30% 65%;    filter: grayscale(100%);
+
 }.eleven{
     background-image: url(ireland.jpg);
     min-width: 30vw;
     height: 30vw;
     background-size: 300%;
-    background-position:0% 95%;
+    background-position:0% 95%;    filter: grayscale(100%);
+
 }.ten{
     background-image: url(colortower.jpg);
     min-width: 30vw;
     height: 30vw;
     background-size: 200%;
-    background-position: 40% 65%;
+    background-position: 40% 65%;    filter: grayscale(100%);
+
 }.twelve{
     background-image: url(stairs.jpg);
     min-width: 30vw;
     height: 30vw;
     background-size: 200%;
-    background-position: 30% 10%;
+    background-position: 30% 10%;    filter: grayscale(100%);
+
+}
+.one2{
+    background-image: url(dry.jpg);
+    min-width: 30vw;
+    height: 30vw;
+    background-size: 100%;
+    background-position: 30% 50%;    filter: grayscale(100%);
+}
+.two2{
+    background-image: url(bnwmedu.jpg);
+    min-width: 30vw;
+    height: 30vw;
+    background-size: 100%;
+    background-position: 30% 10%;    filter: grayscale(100%);
+}
+.three2{
+    background-image: url(bnwtree.jpg);
+    min-width: 30vw;
+    height: 30vw;
+    background-size: 100%;
+    background-position: 40% 70%;    filter: grayscale(100%);
 }
