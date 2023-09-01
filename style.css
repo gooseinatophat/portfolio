@@ -474,3 +474,103 @@ border-radius: 50%;
     transition: ease-in 0.6s, ease-out 0.5s;
     scale: 90%;
 }
+.back{
+    width: 100%;
+    height: 100%;
+    background-color: #6b6a5c;
+    margin: 0;
+    text-align: center;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 80vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.green{
+    background-color: #837157;
+    margin-top: 10vw;
+}
+.urban{
+    display: flex;
+    margin: 0vw;
+    background-color: #000000;
+    justify-content: space-between;
+    justify-content:  space-around;
+    align-items: center;
+    height: 35vw;
+}
+.six{
+    background-image: url(building.jpg);
+    min-width: 30vw;
+    height: 30vw;
+    background-size: 110%;
+    background-position: 20% 70%;
+}.two{
+    background-image: url(reflecting\ bridge.jpg);
+    min-width: 30vw;
+    height: 30vw;
+    background-size:100%;
+    background-position: 100% 70%;
+}.eight{
+    background-image: url(tree.jpg);
+    min-width: 30vw;
+    height: 30vw;
+    background-size:400%;
+    background-position: 100% 70%;
+}.three{
+    background-image: url(lake2.jpeg);
+    min-width: 30vw;
+    height: 30vw;
+    background-size: 100% ;
+    background-position: 30% 0%;
+}.one{
+    background-image: url(langi.jpg);
+    min-width: 30vw;
+    height: 30vw;
+    background-size: 200%;
+    background-position: 70% 70%;
+}.five{
+    background-image: url(ampel.jpg);
+    min-width: 30vw;
+    height: 30vw;
+    background-size: 200%;
+    background-position: 50% 70%;
+}.seven{
+    background-image: url(wiedikon.jpg);
+    min-width: 30vw;
+    height: 30vw;
+    background-size: 200%;
+    background-position: 30% 65%;
+}
+.nine{
+    background-image: url(tower.jpg);
+    min-width: 30vw;
+    height: 30vw;
+    background-size: 150%;
+    background-position: 30% 25%;
+}.four{
+    background-image: url(blue2.jpg);
+    min-width: 30vw;
+    height: 30vw;
+    background-size: 100%;
+    background-position: 30% 65%;
+}.eleven{
+    background-image: url(ireland.jpg);
+    min-width: 30vw;
+    height: 30vw;
+    background-size: 300%;
+    background-position:0% 95%;
+}.ten{
+    background-image: url(colortower.jpg);
+    min-width: 30vw;
+    height: 30vw;
+    background-size: 200%;
+    background-position: 40% 65%;
+}.twelve{
+    background-image: url(stairs.jpg);
+    min-width: 30vw;
+    height: 30vw;
+    background-size: 200%;
+    background-position: 30% 10%;
+}
