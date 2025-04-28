@@ -156,8 +156,8 @@ background-image: url(wissibluemeli.jpg);
 width: 25vw;
 height: 25vw;
 background-repeat: no-repeat;
-background-size: cover;
-background-position: top;
+background-size: 200%;
+background-position: center;
 font-size: 4vw;
 text-align: center;
 cursor: pointer;
@@ -170,6 +170,7 @@ transition-duration: 1s;
 .Photography:hover {
 border-radius: 50%;
 color: #ffffff;
+
 
 }
 .Art{
@@ -508,14 +509,14 @@ border-radius: 50%;
     height: 30vw;
     background-size: 110%;
     background-position: 20% 70%;
-    filter: grayscale(100%);
+    filter: grayscale(00%);
 }.two{
     background-image: url(reflecting\ bridge.jpg);
     min-width: 30vw;
     height: 30vw;
     background-size:100%;
     background-position: 100% 70%;
-    filter: grayscale(100%);
+    filter: grayscale(00%);
 
 }.eight{
     background-image: url(tree.jpg);
@@ -523,91 +524,91 @@ border-radius: 50%;
     height: 30vw;
     background-size:400%;
     background-position: 100% 70%;
-    filter: grayscale(100%);
+    filter: grayscale(00%);
 
 }.three{
     background-image: url(lake2.jpeg);
     min-width: 30vw;
     height: 30vw;
     background-size: 100% ;
-    background-position: 30% 0%;    filter: grayscale(100%);
+    background-position: 30% 0%;    filter: grayscale(00%);
 
 }.one{
     background-image: url(langi.jpg);
     min-width: 30vw;
     height: 30vw;
     background-size: 200%;
-    background-position: 70% 70%;    filter: grayscale(100%);
+    background-position: 70% 70%;    filter: grayscale(00%);
 
 }.five{
-    background-image: url(ampel.jpg);    filter: grayscale(100%);
+    background-image: url(ampel.jpg);    filter: grayscale(00%);
 
     min-width: 30vw;
     height: 30vw;
     background-size: 200%;
     background-position: 50% 70%;
 }.seven{
-    background-image: url(wiedikon.jpg);    filter: grayscale(100%);
+    background-image: url(wiedikon.jpg);    filter: grayscale(00%);
 
     min-width: 30vw;
     height: 30vw;
     background-size: 200%;
-    background-position: 30% 65%;
+    background-position: 30% 75%;
 }
 .nine{
-    background-image: url(tower.jpg);
+    background-image: url(colortower.jpg);
     min-width: 30vw;
     height: 30vw;
     background-size: 150%;
-    background-position: 30% 25%;    filter: grayscale(100%);
+    background-position: 30% 25%;    filter: grayscale(00%);
 
 }.four{
-    background-image: url(blue2.jpg);
+    background-image: url(ampel.jpg);
     min-width: 30vw;
     height: 30vw;
-    background-size: 100%;
-    background-position: 30% 65%;    filter: grayscale(100%);
+    background-size: 300%;
+    background-position: 1% 35%;    filter: grayscale(00%);
 
 }.eleven{
     background-image: url(ireland.jpg);
     min-width: 30vw;
     height: 30vw;
     background-size: 300%;
-    background-position:0% 95%;    filter: grayscale(100%);
+    background-position:0% 95%;    filter: grayscale(00%);
 
 }.ten{
-    background-image: url(colortower.jpg);
+    background-image: url(tower.jpg);
     min-width: 30vw;
     height: 30vw;
     background-size: 200%;
-    background-position: 40% 65%;    filter: grayscale(100%);
+    background-position: 30% 10%;    filter: grayscale(00%);
 
 }.twelve{
-    background-image: url(stairs.jpg);
-    min-width: 30vw;
-    height: 30vw;
-    background-size: 200%;
-    background-position: 30% 10%;    filter: grayscale(100%);
-
-}
-.one2{
-    background-image: url(dry.jpg);
+    background-image: url(blue2.jpg);
     min-width: 30vw;
     height: 30vw;
     background-size: 100%;
-    background-position: 30% 50%;    filter: grayscale(100%);
+    background-position: 30% 10%;    filter: grayscale(00%);
+
+}
+.one2{
+    background-image: url(stairs.jpg);
+    min-width: 30vw;
+    height: 30vw;
+    background-size: 100%;
+    background-position: 30% 50%;    filter: grayscale(00%);
 }
 .two2{
     background-image: url(bnwmedu.jpg);
     min-width: 30vw;
     height: 30vw;
     background-size: 100%;
-    background-position: 30% 10%;    filter: grayscale(100%);
+    background-position: 30% 10%;    filter: grayscale(00%);
 }
 .three2{
-    background-image: url(bnwtree.jpg);
+    background-image: url(building.jpg);
     min-width: 30vw;
     height: 30vw;
-    background-size: 100%;
-    background-position: 40% 70%;    filter: grayscale(100%);
+    background-size: 110%;
+    background-position: 20% 70%;    filter: grayscale(00%);
 }
