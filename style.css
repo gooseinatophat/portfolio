@@ -152,7 +152,7 @@ button{
     display: block;
 }
 .Photography{
-background-image: url(medusa.jpg);
+background-image: url(wissibluemeli.jpg);
 width: 25vw;
 height: 25vw;
 background-repeat: no-repeat;
@@ -161,16 +161,15 @@ background-position: top;
 font-size: 4vw;
 text-align: center;
 cursor: pointer;
-color: #cf4343;
-text-shadow:2px 2px #802727 ;
+color: #5f5c5c;
+text-shadow:2px 1px #000000 ;
 border:none;
 transition-duration: 1s;
 
 }
 .Photography:hover {
-background-position: bottom;
 border-radius: 50%;
-
+color: #ffffff;
 
 }
 .Art{
