@@ -17,7 +17,7 @@ body {
     background-repeat: repeat;
     background-size: cover;
     background-position: left;
-    height: 2.5vw;
+    height: 5vw;
     white-space: nowrap;
     font-size: 1.5vw;
 
@@ -25,7 +25,8 @@ body {
 .navb{
     display: inline;
     background-color: #10100E;
-    height: 2vw;
+    height: 4.5vw;
+    width: 25%;
     margin: 0;
     color: #9ea395;   
     font-weight: bolder;
