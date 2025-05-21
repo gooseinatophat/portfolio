@@ -45,8 +45,8 @@ body {
 }
 
 h1 {
-    color: #b7d3a1;
-    background: #5a6b40;
+    color: #d0c6af;
+    background: #6b564c;
     font-size: 10vw;
     margin-bottom: 0px;
     text-align: left;
@@ -148,29 +148,68 @@ p {
         color: #10100E;
     }
 }
+
+@keyframes slider {
+   from{left: 1vw;}
+   to{left: 10vw;}
+}
+
 button{
     display: block;
 }
+
+.projectone{
+    width: 60vw;
+    height: 40vw;
+    background-image: url(hartstair.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:#e5e2dc;
+    cursor: pointer;
+    
+    background-position: center;
+    font-size: 5vw;
+    
+    
+}
+.title{
+    position: relative;
+    animation: slider 2s forwards 3s;
+}
+.projecttwo{
+    width: 60vw;
+    height: 40vw;
+    background-image: url(wissibluemeli.jpg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    color:#e5e2dc;
+    cursor: pointer;
+    font-size: 5vw;
+    text-align: center;
+    
+    
+}
+
 .Photography{
-background-image: url(wissibluemeli.jpg);
+background-image: url(blue2.jpg);
 width: 25vw;
 height: 25vw;
 background-repeat: no-repeat;
-background-size: 200%;
+background-size: 100%;
 background-position: center;
 font-size: 4vw;
 text-align: center;
 cursor: pointer;
-color: #5f5c5c;
+color: #c6b21e;
 text-shadow:2px 1px #000000 ;
 border:none;
 transition-duration: 1s;
 
 }
 .Photography:hover {
+
 border-radius: 50%;
 color: #ffffff;
-
 
 }
 .Art{
@@ -231,6 +270,8 @@ color: #f79cab;
 border-radius: 50%;
 
 }
+
+
 section {
     background-color:#708056;
     padding: 1rem;
@@ -238,7 +279,7 @@ section {
 }
 
 .columns {
-    columns: 4 100px;
+    columns: 4 100vw;
     column-gap: 1%;
     padding: 0rem;
     display: inline-block;
