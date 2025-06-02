@@ -271,6 +271,11 @@ border-radius: 50%;
 
 }
 
+.skill1 .skill2 {
+    width: 8vw;
+    height: 2vw;
+}
+
 
 section {
     background-color:#708056;
