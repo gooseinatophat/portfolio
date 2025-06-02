@@ -158,6 +158,24 @@ button{
     display: block;
 }
 
+#portonavbar{
+    position:fixed; 
+    width: 100%;
+    top:0;
+    transition: top 0.3s; 
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    background-color: #10100E;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: left;
+    height: 5vw;
+    white-space: nowrap;
+    font-size: 1.5vw;
+}
+
 .projectone{
     width: 60vw;
     height: 40vw;
@@ -166,7 +184,7 @@ button{
     background-size: 100%;
     color:#e5e2dc;
     cursor: pointer;
-    
+    display: inline-block;
     background-position: center;
     font-size: 5vw;
     
@@ -186,7 +204,7 @@ button{
     cursor: pointer;
     font-size: 5vw;
     text-align: center;
-    
+    display: inline-block;
     
 }
 
@@ -204,7 +222,7 @@ color: #c6b21e;
 text-shadow:2px 1px #000000 ;
 border:none;
 transition-duration: 1s;
-
+display: inline-block;
 }
 .Photography:hover {
 
@@ -223,7 +241,7 @@ color: #ffffff;
     cursor: pointer;
     color: rgb(248, 44, 241);
     text-shadow:2px 2px #780e58 ;
-    
+    display: inline-block;
     border:none;
     transition-duration: 1s;
 
@@ -233,7 +251,7 @@ color: #ffffff;
     border-radius: 50%;
 
 }
-.digi-d{
+.web{
     background-color: #e079d7;
     background: url(clockscreenshot.png);
     background-size: cover;
@@ -246,9 +264,9 @@ color: #ffffff;
     cursor: pointer;
     border:none;
     transition-duration: 1s;
-
+display: inline-block;
 }
-.digi-d:hover{
+.web:hover{
     border-radius: 50%;
 }
 .video{
@@ -263,6 +281,7 @@ color: #ffffff;
     cursor: pointer;
     border:none;
     transition-duration: 1s;
+    display: inline-block;
 }
 .video:hover{
 background-color: rgb(131, 22, 22);
