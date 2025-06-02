@@ -160,21 +160,18 @@ button{
 
 #portonavbar{
     position:fixed; 
-    width: 100%;
-    top:0;
-    transition: top 0.3s; 
-    list-style-type: none;
+    width: 10%;
+    
     margin: 0;
-    text-align: center;
+    right: 0;
+    align-content:center; 
     padding: 0;
-    background-color: #10100E;
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: left;
-    height: 5vw;
+    background-color: #b6b63f;
+    height: 100%;
     white-space: nowrap;
-    font-size: 1.5vw;
-}
+    font-size: 1.5vw;}
+    
+
 
 .projectone{
     width: 60vw;

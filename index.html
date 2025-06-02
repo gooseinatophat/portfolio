@@ -32,12 +32,7 @@
       <div id="portonavbar">
         <div class="projectone"><div class="title">urban impressions</div></div>
         <div class="projecttwo">botanical close ups</div>
-        <div
-          class="Photography"
-          onclick="window.location.href='photography.html'"
-        >
-          architecturals
-        </div>
+        <div class="Photography" onclick="window.location.href='photography.html'">architecturals</div>
         <div class="web">portfolio-website from scratch</div>
         <!-- <div class="Art" onclick="window.location.href='art.html'"></div>       -->
         <div class="video" onclick="window.location.href='video.html'"></div>
@@ -126,13 +121,13 @@
         prevScrollpos = currentScrollPos;
       };
 
-      var prevScrollpos = window.pageYOffset;
+      var prevScrollpos = window.pageXOffset;
       window.onscroll = function () {
-        var currentScrollPos = window.pageYOffset;
+        var currentScrollPos = window.pageXOffset;
         if (prevScrollpos > currentScrollPos) {
-          document.getElementById("portonavbar").style.top = "0";
+          document.getElementById("portonavbar").style.right = "0";
         } else {
-          document.getElementById("portonavbar").style.top = "-10vw";
+          document.getElementById("portonavbar").style.right = "10vw";
         }
         prevScrollpos = currentScrollPos;
       };
