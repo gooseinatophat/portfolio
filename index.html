@@ -28,25 +28,52 @@
     </div>
 
     <h2 id="section-portfolio">Portfolio</h2>
-    <section class="columns">
-      <div id="portonavbar">
-        <div class="projectone"><div class="title">urban impressions</div></div>
-        <div class="projecttwo">botanical close ups</div>
-        <div class="Photography" onclick="window.location.href='photography.html'">architecturals</div>
-        <div class="web">portfolio-website from scratch</div>
-        <!-- <div class="Art" onclick="window.location.href='art.html'"></div>       -->
-        <div class="video" onclick="window.location.href='video.html'"></div>
+    <div class="projdisplay">
+      <div class="grids">
+        <div id="proji" class="gridon">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div id="projii" class="gridon">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        test
       </div>
-    </section>
+      <div id="portonavbar">
+        <div id="i" class="projectone">
+          <div class="title">urban impressions</div>
+        </div>
+        <div id="ii" class="projecttwo">botanical close ups</div>
+        <div
+          id="iii"
+          class="Photography"
+          onclick="window.location.href='photography.html'"
+        >
+          architecturals
+        </div>
+        <div id="iv" class="web">portfolio-website from scratch</div>
+        <!-- <div id="v" class="Art" onclick="window.location.href='art.html'"></div>       -->
+        <div
+          id="vi"
+          class="video"
+          onclick="window.location.href='video.html'"
+        ></div>
+      </div>
+    </div>
 
     <h2 id="section-skills">Skills</h2>
-    <div class="skill1">social media</div>
-    <div class="skill2">photography</div>
-    <div class="skill3">digital art</div>
-    <div class="skill4">classic arts</div>
-    <div class="skill5">audio</div>
-    <div class="skill6">video editing</div>
-    <div class="skill7">website creation</div>
+    <div class="containerskills">
+      <div class="skill1">social media</div>
+      <div class="skill2">photography</div>
+      <div class="skill3">digital art</div>
+      <div class="skill4">classic arts</div>
+      <div class="skill5">audio</div>
+      <div class="skill6">video editing</div>
+      <div class="skill7">website creation</div>
+    </div>
 
     <h2 id="section-intro">Über Mich</h2>
     <main>
@@ -55,7 +82,7 @@
         <p>
           Zwischen Schweiz und Brasilien aufgewachsen, bin ich von klein auf
           eine begeisterte Weltreisende. Von Architektur, Linguistik und
-          Kulinarik, zu Kulturen, Gebräuchen und Erzälungen; Die unendliche
+          Kulinarik, zu Kulturen, Gebräuchen und Erzählungen; Die unendliche
           Vielfalt unserer gewaltigen Welt inspiriert und bewegt mich immer
           wieder. Mein grösster Wunsch ist es, den Menschen durch verschiedene
           Medien die fantastischen Aspekte des Lebens näher zu bringen.
@@ -115,22 +142,52 @@
         var currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
           document.getElementById("navbar").style.top = "0";
+          document.getElementById("portonavbar").style.backgroundColor =
+            "#b6b63f";
         } else {
           document.getElementById("navbar").style.top = "-10vw";
+          document.getElementById("portonavbar").style.backgroundColor = "#b6b63f00";
         }
         prevScrollpos = currentScrollPos;
       };
-
-      var prevScrollpos = window.pageXOffset;
       window.onscroll = function () {
-        var currentScrollPos = window.pageXOffset;
-        if (prevScrollpos > currentScrollPos) {
-          document.getElementById("portonavbar").style.right = "0";
-        } else {
-          document.getElementById("portonavbar").style.right = "10vw";
-        }
-        prevScrollpos = currentScrollPos;
+        myFunction();
       };
+      function myFunction() {
+        if (document.documentElement.scrollTop > 50) {
+          document.getElementById("proji").className = "gridon";
+        } else {
+          document.getElementById("proji").className = "";
+        }
+      }
+
+      const projectSections = [
+    document.getElementById("proji"),
+    document.getElementById("projii")
+    // Add more project grid elements here if needed
+  ];
+
+  let currentVisibleIndex = 0;
+
+  function showOnly(index) {
+    projectSections.forEach((section, i) => {
+      section.style.display = i === index ? "block" : "none";
+    });
+  };
+
+  showOnly(currentVisibleIndex);
+
+  window.addEventListener("wheel", (e) => {
+    const delta = Math.sign(e.deltaY);
+    if (delta > 0 && currentVisibleIndex < projectSections.length - 1) {
+      currentVisibleIndex++;
+    } else if (delta < 0 && currentVisibleIndex > 0) {
+      currentVisibleIndex--;
+    } else {
+      return;
+    }
+    showOnly(currentVisibleIndex);
+  }, { passive: true });
     </script>
   </body>
 </html>
