@@ -40,27 +40,18 @@
           <div></div>
           <div></div>
         </div>
-        test
+        
       </div>
       <div id="portonavbar">
         <div id="i" class="projectone">
           <div class="title">urban impressions</div>
         </div>
-        <div id="ii" class="projecttwo">botanical close ups</div>
-        <div
-          id="iii"
-          class="Photography"
-          onclick="window.location.href='photography.html'"
-        >
-          architecturals
-        </div>
-        <div id="iv" class="web">portfolio-website from scratch</div>
-        <!-- <div id="v" class="Art" onclick="window.location.href='art.html'"></div>       -->
-        <div
-          id="vi"
-          class="video"
-          onclick="window.location.href='video.html'"
-        ></div>
+        <div id="ii" class="projecttwo">botanicals</div>
+        <div id="iii" class="projectthree">architecturals</div>
+        <div id="iv" class="projectfour">website</div>
+        <!-- 
+        <div id="v" class="projectfive"></div>
+        <div id="vi" class="projectsix"></div> -->
       </div>
     </div>
 
@@ -138,56 +129,62 @@
 
     <script>
       var prevScrollpos = window.pageYOffset;
+
       window.onscroll = function () {
         var currentScrollPos = window.pageYOffset;
+
+        // Navbar hide/show logic
         if (prevScrollpos > currentScrollPos) {
           document.getElementById("navbar").style.top = "0";
           document.getElementById("portonavbar").style.backgroundColor =
             "#b6b63f";
         } else {
           document.getElementById("navbar").style.top = "-10vw";
-          document.getElementById("portonavbar").style.backgroundColor = "#b6b63f00";
+          document.getElementById("portonavbar").style.backgroundColor =
+            "#b6b63f00";
         }
         prevScrollpos = currentScrollPos;
-      };
-      window.onscroll = function () {
-        myFunction();
-      };
-      function myFunction() {
+
+        // Trigger class change for 'proji' if scroll > 50px
         if (document.documentElement.scrollTop > 50) {
           document.getElementById("proji").className = "gridon";
         } else {
           document.getElementById("proji").className = "";
         }
+      };
+
+      // Project switching on scroll
+      const projectSections = [
+        document.getElementById("proji"),
+        document.getElementById("projii"),
+        // Add more project grid elements here if needed
+      ];
+
+      let currentVisibleIndex = 0;
+
+      function showOnly(index) {
+        projectSections.forEach((section, i) => {
+          section.style.display = i === index ? "block" : "none";
+        });
       }
 
-      const projectSections = [
-    document.getElementById("proji"),
-    document.getElementById("projii")
-    // Add more project grid elements here if needed
-  ];
+      showOnly(currentVisibleIndex);
 
-  let currentVisibleIndex = 0;
-
-  function showOnly(index) {
-    projectSections.forEach((section, i) => {
-      section.style.display = i === index ? "block" : "none";
-    });
-  };
-
-  showOnly(currentVisibleIndex);
-
-  window.addEventListener("wheel", (e) => {
-    const delta = Math.sign(e.deltaY);
-    if (delta > 0 && currentVisibleIndex < projectSections.length - 1) {
-      currentVisibleIndex++;
-    } else if (delta < 0 && currentVisibleIndex > 0) {
-      currentVisibleIndex--;
-    } else {
-      return;
-    }
-    showOnly(currentVisibleIndex);
-  }, { passive: true });
+      window.addEventListener(
+        "wheel",
+        (e) => {
+          const delta = Math.sign(e.deltaY);
+          if (delta > 0 && currentVisibleIndex < projectSections.length - 1) {
+            currentVisibleIndex++;
+          } else if (delta < 0 && currentVisibleIndex > 0) {
+            currentVisibleIndex--;
+          } else {
+            return;
+          }
+          showOnly(currentVisibleIndex);
+        },
+        { passive: true }
+      );
     </script>
   </body>
 </html>
