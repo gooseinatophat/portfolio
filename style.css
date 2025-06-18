@@ -240,6 +240,13 @@ button{
     text-align: center;
     background-color:#708056;
     color:#383929;
+    border: #50460e 1vw;
+
+}
+.skill1, .skill2, .skill3,.skill4,.skill5,.skill6,.skill7 :hover{
+ 
+    color: #c4c98a; 
+    cursor: progress;
 
 }
 
