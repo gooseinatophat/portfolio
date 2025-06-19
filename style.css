@@ -166,8 +166,13 @@ button{
 }
 
 #proji, #projii {
-    display: none;
+    display: inline;
     transition: opacity 0.5s ease-in-out;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 40vw;
   }
 
 #portonavbar{
@@ -188,10 +193,78 @@ button{
     display: inline-grid;
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .gridon{
     position: relative;
+}
+
+.ui{
+    background:  #bba271 url(slates-26.jpg) center/contain no-repeat  ;
+    width: 30vw;
+    height: 20vw;
+    position: relative;    display: inline-grid;
+
+}
+
+.uii{
+    background:  #bba271 url(slates-28.jpg) center/contain no-repeat  ;
+    width: 30vw;
+    height: 20vw;
+    position: relative;    display: inline-grid;
+
+}
+
+.uiii{
+    background:  #bba271 url(slates-29.jpg) center/contain no-repeat  ;
+    width: 30vw;
+    height: 20vw;
+    position: relative;    display: inline-grid;
+
+    
+}
+
+.uvi{
+    background:  #bba271 url(building.jpg) center/100% no-repeat  ;
+    width: 30vw;
+    height: 20vw;
+    position: relative;    display: inline-grid;
+
+}
+
+.boi{
+    background:  #bba271 url(slates-17.jpg) center/contain no-repeat  ;
+    width: 30vw;
+    height: 20vw;
+    position: relative;    display: inline-grid;
+
+}
+
+.boii{
+    background:  #bba271 url(slates-21.jpg) center/contain no-repeat  ;
+    width: 30vw;
+    height: 20vw;
+    position: relative;
+        display: inline-grid;
+
+}
+
+.boiii{
+    background:  #bba271 url(slates-19.jpg) center/contain no-repeat  ;
+    width: 30vw;
+    height: 20vw;
+    position: relative;
+    display: inline-grid;
+}
+
+.bovi{
+    background:  #bba271 url(slates-16.jpg) center/100% no-repeat  ;
+    width: 30vw;
+    height: 20vw;
+    position: relative;    display: inline-grid;
+
 }
 
 #i, #ii,#iii,#iv,#v,#vi{
@@ -239,14 +312,7 @@ button{
     position:relative;
     text-align: center;
     background-color:#708056;
-    color:#383929;
-    border: #50460e 1vw;
-
-}
-.skill1, .skill2, .skill3,.skill4,.skill5,.skill6,.skill7 :hover{
- 
-    color: #c4c98a; 
-    cursor: progress;
+    color:#c4c98a;
 
 }
 
