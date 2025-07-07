@@ -260,7 +260,7 @@ button{
 }
 
 .bovi{
-    background:  #bba271 url(slates-16.jpg) center/100% no-repeat  ;
+    background:  #bba271 url(ireland.jpg) center/100% no-repeat  ;
     width: 30vw;
     height: 20vw;
     position: relative;    display: inline-grid;
@@ -283,14 +283,14 @@ button{
     display: inline-grid;
 }
 .ariii{
-    background:  #bba271 url(landesm.jpg) center/contain no-repeat  ;
+    background:  #bba271 url(landesm.jpg) center/115% no-repeat  ;
     width: 30vw;
     height: 20vw;
     position: relative;
     display: inline-grid;
 }
 .arvi{
-    background:  #bba271 url(reflecting\ bridge.jpg) center/contain no-repeat  ;
+    background:  #bba271 url(reflecting\ bridge.jpg) center/150% no-repeat  ;
     width: 30vw;
     height: 20vw;
     position: relative;
@@ -312,14 +312,14 @@ button{
     display: inline-grid;
 }
 .suiii{
-    background:  #bba271 url(slates-06jpg) center/contain no-repeat  ;
+    background:  #bba271 url(slates-06.jpg) center/contain no-repeat  ;
     width: 30vw;
     height: 20vw;
     position: relative;
     display: inline-grid;
 }
 .suvi{
-    background:  #bba271 url(bnwmedu.jpg) center/contain no-repeat  ;
+    background:  #bba271 url(bnwmedu.jpg) center/125% no-repeat  ;
     width: 30vw;
     height: 20vw;
     position: relative;
