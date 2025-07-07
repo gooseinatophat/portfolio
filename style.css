@@ -202,7 +202,7 @@ button{
 }
 
 .ui{
-    background:  #bba271 url(slates-26.jpg) center/contain no-repeat  ;
+    background:  #bba271 url(shadowbike.jpg) center/contain no-repeat  ;
     width: 30vw;
     height: 20vw;
     position: relative;    display: inline-grid;
@@ -210,7 +210,7 @@ button{
 }
 
 .uii{
-    background:  #bba271 url(slates-28.jpg) center/contain no-repeat  ;
+    background:  #bba271 url(slates-13.jpg) center/100% no-repeat  ;
     width: 30vw;
     height: 20vw;
     position: relative;    display: inline-grid;
@@ -218,7 +218,7 @@ button{
 }
 
 .uiii{
-    background:  #bba271 url(slates-29.jpg) center/contain no-repeat  ;
+    background:  #bba271 url(container.jpg) center/contain no-repeat  ;
     width: 30vw;
     height: 20vw;
     position: relative;    display: inline-grid;
@@ -227,7 +227,7 @@ button{
 }
 
 .uvi{
-    background:  #bba271 url(building.jpg) center/100% no-repeat  ;
+    background:  #bba271 url(slates-12.jpg) center/125% no-repeat  ;
     width: 30vw;
     height: 20vw;
     position: relative;    display: inline-grid;
@@ -267,6 +267,65 @@ button{
 
 }
 
+
+.ari{
+    background:  #bba271 url(slates-28.jpg) center/contain no-repeat  ;
+    width: 30vw;
+    height: 20vw;
+    position: relative;
+    display: inline-grid;
+}
+.arii{
+    background:  #bba271 url(slates-10.jpg) center/contain no-repeat  ;
+    width: 30vw;
+    height: 20vw;
+    position: relative;
+    display: inline-grid;
+}
+.ariii{
+    background:  #bba271 url(landesm.jpg) center/contain no-repeat  ;
+    width: 30vw;
+    height: 20vw;
+    position: relative;
+    display: inline-grid;
+}
+.arvi{
+    background:  #bba271 url(reflecting\ bridge.jpg) center/contain no-repeat  ;
+    width: 30vw;
+    height: 20vw;
+    position: relative;
+    display: inline-grid;
+}
+
+.sui{
+    background:  #bba271 url(slates-29.jpg) center/contain no-repeat  ;
+    width: 30vw;
+    height: 20vw;
+    position: relative;
+    display: inline-grid;
+}
+.suii{
+    background:  #bba271 url(slates-26.jpg) center/contain no-repeat  ;
+    width: 30vw;
+    height: 20vw;
+    position: relative;
+    display: inline-grid;
+}
+.suiii{
+    background:  #bba271 url(slates-06jpg) center/contain no-repeat  ;
+    width: 30vw;
+    height: 20vw;
+    position: relative;
+    display: inline-grid;
+}
+.suvi{
+    background:  #bba271 url(bnwmedu.jpg) center/contain no-repeat  ;
+    width: 30vw;
+    height: 20vw;
+    position: relative;
+    display: inline-grid;
+}
+
 #i, #ii,#iii,#iv,#v,#vi{
     width: 10vw;
     height: 10vw;
@@ -296,6 +355,24 @@ button{
     height: 10vw;
     background: url(wissibluemeli.jpg) no-repeat 200%;
 
+}
+
+
+
+
+
+.mestickeri{
+    background: url(stylised\ me\ for\ potfolio.jpg) center/contain no-repeat ;
+}
+.mestickerii{    background: url(commute\ me.jpg) center/contain no-repeat ;
+}
+.mestickeriii{    background: url(lounge.jpg) center/contain no-repeat ;
+}
+
+.mestickeri,.mestickerii,.mestickeriii{ 
+    width: 30vw;
+    height: 30vw; 
+    display:inline-block;
 }
 
 .containerskills{
