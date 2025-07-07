@@ -28,42 +28,36 @@
     </div>
 
     <h2 id="section-portfolio">Portfolio</h2>
-    <h3>Fotographie</h3>
+    <h3>Fotografie</h3>
     <div class="projdisplay">
-      <div class="grids">
-        <div id="proji" class="gridon">
+      <div class="horizontal-scroll">
+<div id="proji" class="gridon">
           <div class="ui"></div>
           <div class="uii"></div>
           <div class="uiii"></div>
           <div class="uvi"></div>
 
         </div>
-        <div id="projii" class="gridon">
+<div id="projii" class="gridon">
           <div class="boi"></div>
           <div class="boii"></div>
           <div class="boiii"></div>
           <div class="bovi"></div>
         </div>
-        
-   
-        <div id="projiii" class="gridon">
+<div id="projiii" class="gridon">
           <div class="ari"></div>
           <div class="arii"></div>
           <div class="ariii"></div>
           <div class="arvi"></div>
         </div>
-
-   
-        <div id="projiv" class="gridon">
+<div id="projiv" class="gridon">
           <div class="sui"></div>
           <div class="suii"></div>
           <div class="suiii"></div>
           <div class="suvi"></div>
         </div>
-      </div>
-      
-     
-      <div id="portonavbar">
+</div>
+<div id="portonavbar">
         <div id="i" class="projectone">
           <div class="title">urban impressions</div>
         </div>
@@ -219,5 +213,14 @@
         { passive: true }
       );
     </script>
-  </body>
+  
+<script>
+  const scrollContainer = document.querySelector(".horizontal-scroll");
+  scrollContainer.addEventListener("wheel", (evt) => {
+    evt.preventDefault();
+    scrollContainer.scrollLeft += evt.deltaY;
+  });
+</script>
+</body>
 </html>
+

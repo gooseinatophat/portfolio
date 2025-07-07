@@ -769,3 +769,23 @@ border-radius: 50%;
     background-size: 110%;
     background-position: 20% 70%;    filter: grayscale(00%);
 }
+
+
+.horizontal-scroll {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 90vw;
+    height: auto;
+    padding: 2vw;
+    gap: 2vw;
+    scroll-snap-type: x mandatory;
+}
+
+.horizontal-scroll .gridon {
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
